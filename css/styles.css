@@ -15,15 +15,18 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
-body{
+
+body {
     margin: 0px;
     padding: 0px;
 }
+
 /*ELEMENTS*/
 
 h2 {
     font: bold 2.25rem/110% "Jost", sans-serif;
     font-optical-sizing: auto;
+    margin: 0px;
 }
 
 .cta,
@@ -37,11 +40,6 @@ h2 {
     border: none;
 }
 
-h3 {
-    color: #E25254;
-    font: bold 1.37rem/110% "Jost", sans-serif;
-    text-transform: uppercase;
-}
 
 /*SECTION*/
 
@@ -68,7 +66,7 @@ h3 {
     align-items: center;
     font: bold 2.63rem/100% "Jost", sans-serif;
     color: black;
-    gap: 30px ;
+    gap: 30px;
 
 }
 
@@ -82,13 +80,13 @@ h3 {
     font: bold 1.12rem/100% "Jost", sans-serif;
 }
 
-.hero{
-    height: 650px ;
+.hero {
+    height: 650px;
     background: url(../image/hero.jpg) no-repeat;
     background-size: cover;
-   padding-top: 76px;
-   padding-bottom: 76px;
-   margin-top: 70px;
+    padding-top: 76px;
+    padding-bottom: 76px;
+    margin-top: 70px;
 }
 
 .hero .wrapper {
@@ -99,7 +97,7 @@ h3 {
 }
 
 .boite {
-    background-color: #E25254 ;
+    background-color: #E25254;
     opacity: 90%;
     align-self: center;
     padding: 40px;
@@ -110,7 +108,7 @@ h3 {
 }
 
 .boite h1 {
-    font: bold 3.12rem/110% "Jost", sans-serif ;
+    font: bold 3.12rem/110% "Jost", sans-serif;
     color: white;
 }
 
@@ -121,4 +119,91 @@ h3 {
 
 .cta {
     align-self: flex-end;
+}
+
+.service {
+    background-color: #D6D6D6;
+    padding: 80px 100px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.article {
+    background-color: white;
+    padding: 20px;
+    width: 383px;
+}
+
+
+.article:hover {
+    background-color: #E25254;
+    color: white;
+}
+
+.article p {
+    font: normal 1.12rem/27px "Roboto", sans-serif;
+}
+
+.article h3 {
+    color: #E25254;
+    font: bold 1.37rem/110% "Jost", sans-serif;
+    text-transform: uppercase;
+}
+
+.titre {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+
+.conseils {
+    background: url(../image/tuile.png) repeat;
+    background-color: #C0392B;
+    height: 656px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding-top: 40px;
+}
+
+.card {
+    background-color: white;
+    height: 288px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card p {
+    font: normal 1.12rem/27px "Roboto", sans-serif;
+}
+
+.conseils h2 {
+    padding-top: 83px;
+}
+
+.titre2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #E25254;
+    font: bold 1.37rem/110% "Jost", sans-serif;
+    text-transform: uppercase;
+}
+
+.titre2 span {
+    font-size: 30px;
+}
+
+.button{
+    align-self: flex-end;
+    margin-top: auto;
 }
