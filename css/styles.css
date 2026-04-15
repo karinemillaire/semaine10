@@ -15,7 +15,10 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+body{
+    margin: 0px;
+    padding: 0px;
+}
 /*ELEMENTS*/
 
 h2 {
@@ -48,6 +51,8 @@ h3 {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
+    height: 70px;
 }
 
 .header .wrapper {
@@ -81,4 +86,39 @@ h3 {
     height: 650px ;
     background: url(../image/hero.jpg) no-repeat;
     background-size: cover;
+   padding-top: 76px;
+   padding-bottom: 76px;
+   margin-top: 70px;
+}
+
+.hero .wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.boite {
+    background-color: #E25254 ;
+    opacity: 90%;
+    align-self: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 587px;
+}
+
+.boite h1 {
+    font: bold 3.12rem/110% "Jost", sans-serif ;
+    color: white;
+}
+
+.boite p {
+    font: normal 1.12rem/160% "Roboto", sans-serif;
+    color: white;
+}
+
+.cta {
+    align-self: flex-end;
 }
