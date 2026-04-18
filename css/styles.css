@@ -182,8 +182,9 @@ h2 {
     flex-direction: column;
 }
 
-.card p {
+.conseils .card p {
     font: normal 1.12rem/27px "Roboto", sans-serif;
+    color: black;
 }
 
 .conseils h2 {
@@ -206,4 +207,27 @@ h2 {
 .button{
     align-self: flex-end;
     margin-top: auto;
+}
+
+.conseils h2{
+    color: white;
+}
+
+.conseils p {
+    color: white;
+    font: normal 1.12rem/160% "Roboto", sans-serif;
+}
+
+.footer {
+    background-color: #E25254;
+}
+
+.footer p{
+    margin: 0px;
+    color: white;
+}
+
+.footer .wrapper {
+    display: flex;
+    justify-content: space-between;
 }
