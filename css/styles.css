@@ -238,5 +238,18 @@ h2 {
 
 .modale{
     background-color: rgba(0, 0,0, 0.7);
-    height: 100%;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraphe{
+    color: #E25254;
+    font: bolder 18.75rem "Jost", sans-serif ;
+    text-transform: uppercase;
 }
