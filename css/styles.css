@@ -225,9 +225,18 @@ h2 {
 .footer p{
     margin: 0px;
     color: white;
+    font: normal 1.12rem/160% "Roboto", sans-serif;
 }
 
 .footer .wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 63px;
+}
+
+
+.modale{
+    background-color: rgba(0, 0,0, 0.7);
+    height: 100%;
 }
