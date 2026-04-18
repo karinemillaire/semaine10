@@ -243,7 +243,7 @@ h2 {
     position: fixed;
     top: 0;
     z-index: 100000;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -252,4 +252,8 @@ h2 {
     color: #E25254;
     font: bolder 18.75rem "Jost", sans-serif ;
     text-transform: uppercase;
+}
+
+.ouverte{
+    display:flex; 
 }
