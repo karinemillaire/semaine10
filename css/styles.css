@@ -139,9 +139,14 @@ h2 {
 }
 
 
-.article:hover {
+.service .article:hover  {
     background-color: #E25254;
-    color: white;
+    color: white; 
+}
+
+
+.service .article:hover h3  {
+    color: white; 
 }
 
 .article p {
@@ -155,6 +160,7 @@ h2 {
 }
 
 .titre {
+
     display: flex;
     align-items: center;
     gap: 18px;
