@@ -66,8 +66,12 @@ h2 {
     align-items: center;
     font: bold 2.63rem/100% "Jost", sans-serif;
     color: black;
-    gap: 30px;
+    gap: 20px;
 
+}
+
+.header span{
+    font-size: 40px;
 }
 
 .menu {
@@ -110,11 +114,15 @@ h2 {
 .boite h1 {
     font: bold 3.12rem/110% "Jost", sans-serif;
     color: white;
+    margin: 0;
 }
 
 .boite p {
     font: normal 1.12rem/160% "Roboto", sans-serif;
     color: white;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .cta {
@@ -139,14 +147,19 @@ h2 {
 }
 
 
-.service .article:hover  {
+.service .article:hover {
     background-color: #E25254;
-    color: white; 
+    color: white;
+}
+
+.service p {
+    font: normal 1.12rem/160% "Roboto", sans-serif;
+    max-width: 588px;
 }
 
 
-.service .article:hover h3  {
-    color: white; 
+.service .article:hover h3 {
+    color: white;
 }
 
 .article p {
@@ -210,25 +223,26 @@ h2 {
     font-size: 30px;
 }
 
-.button{
+.button {
     align-self: flex-end;
     margin-top: auto;
 }
 
-.conseils h2{
+.conseils h2 {
     color: white;
 }
 
 .conseils p {
     color: white;
     font: normal 1.12rem/160% "Roboto", sans-serif;
+    max-width: 588px;
 }
 
 .footer {
     background-color: #E25254;
 }
 
-.footer p{
+.footer p {
     margin: 0px;
     color: white;
     font: normal 1.12rem/160% "Roboto", sans-serif;
@@ -242,8 +256,8 @@ h2 {
 }
 
 
-.modale{
-    background-color: rgba(0, 0,0, 0.7);
+.modale {
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -254,12 +268,12 @@ h2 {
     align-items: center;
 }
 
-.paragraphe{
+.paragraphe {
     color: #E25254;
-    font: bolder 18.75rem "Jost", sans-serif ;
+    font: bolder 18.75rem "Jost", sans-serif;
     text-transform: uppercase;
 }
 
-.ouverte{
-    display:flex; 
+.ouverte {
+    display: flex;
 }
